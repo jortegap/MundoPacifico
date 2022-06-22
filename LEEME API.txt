@@ -1,0 +1,70 @@
+HERRAMIENTAS PARA INSTALAR:
+
+*Xammp:
+descarga--> https://www.apachefriends.org/es/download.html
+correr servicios de Apache en el puerto 8080 y MySQL
+
+* Visual Studio Code
+descarga--> https://code.visualstudio.com/Download
+
+
+*Laravel:
+
+Para instalar laravel necesitamos 2 cosas:
+
+-Node js:
+descarga -->https://nodejs.org/es/
+
+-Composer:
+descarga -->https://getcomposer.org/download/
+CLICK EN:  Composer-Setup.exe
+
+
+LUEGO DE TENER AMBAS HERRAMIENTAS ABRIR CMD Y EJECUTAR SIGUIENTE COMANDO PARA INSTALAR LARAVEL: 
+composer global require laravel/installer.
+
+
+
+
+CREACION DEL PROYECTO:
+
+
+*API:
+
+Primero debemos ubicar en la ruta de xammp:
+abrimos cmd y escribimos: 
+cd C:\xampp\htdocs 
+
+Una vez entrando en la ruta creamos el proyecto con el siguiente comando:
+
+Laravel new ApiMundoPacifico 
+(ApiMundoPacifico es nuestro nombre del proyecto)
+
+
+Despues de crearse entramos a nuestro proyecto con el comando:
+cd ApiMundoPacifico
+
+y por ultimo el siguiente comando para entrar al proyecto con Visual studio code: 
+code . 
+Se abre nuestro proyecto en visual studio.
+
+
+para empezar creamos nuestra base de datos en PHPMYADMIN ---> https://localhost/phpmyadmin Y una vez creada
+creamos los modelos , y las migraciones correspondientes desde la consola de nuestro proyecto en larabel
+
+despues creamos los controladores con los metodos de nuestra Api y junto a ellos las rutas en nuestro archivo "Api.php"
+
+
+
+FRONT END* REACT
+
+
+
+
+
+
+
+
+
+
+
